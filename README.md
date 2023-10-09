@@ -31,20 +31,20 @@ Bing Maps Arial
 - world imagery for urban areas with down to 15cm resolution 
 
 
-   Cesium.Ion.defaultAccessToken =
-          "YOUR PASS KEY - Paste it here";
-        const viewer = new Cesium.Viewer("cesiumContainer", {
-            // 3D terrain render
-          terrainProvider: Cesium.createWorldTerrain({
-            requestWaterMask: true,
-          }),
-            // Bing world with labels
-          imageryProvider: Cesium.createWorldImagery({
-            style: Cesium.IonWorldImageryStyle.AERIAL_WITH_LABELS,
-          }),
-        });
-        // 3D buildings render
-        viewer.scene.primitives.add(Cesium.createOsmBuildings());
+    Cesium.Ion.defaultAccessToken =
+            "YOUR PASS KEY - Paste it here";
+            const viewer = new Cesium.Viewer("cesiumContainer", {
+                // 3D terrain render
+            terrainProvider: Cesium.createWorldTerrain({
+                requestWaterMask: true,
+            }),
+                // Bing world with labels
+            imageryProvider: Cesium.createWorldImagery({
+                style: Cesium.IonWorldImageryStyle.AERIAL_WITH_LABELS,
+            }),
+            });
+            // 3D buildings render
+            viewer.scene.primitives.add(Cesium.createOsmBuildings());
 
 
 ## Cartesian3.fromDegrees to convert Lat / Long / Height to X, Y & Z
