@@ -30,7 +30,7 @@ Bing Maps Arial
     ~ With 'labels' extension
 - world imagery for urban areas with down to 15cm resolution 
 
-
+<code>
     Cesium.Ion.defaultAccessToken =
             "YOUR PASS KEY - Paste it here";
             const viewer = new Cesium.Viewer("cesiumContainer", {
@@ -45,7 +45,7 @@ Bing Maps Arial
             });
             // 3D buildings render
             viewer.scene.primitives.add(Cesium.createOsmBuildings());
-
+</code>
 
 ## Cartesian3.fromDegrees to convert Lat / Long / Height to X, Y & Z
 
