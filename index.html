@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Cesium.js"></script>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Get your token from https://cesium.com/ion/tokens
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhMzVhN2ZiYS02YzBiLTQ3NzktOTAyMi1kNmEwMTgxOTNhMTIiLCJpZCI6MTcwODQ5LCJpYXQiOjE2OTY4NjIyNTJ9.VTAf5hLB5W97irE_U2IcsvYlDP9O9zKd4r9bCXytY98';
+    const viewer = new Cesium.Viewer('cesiumContainer');
+  </script>
+</body>
+</html>
