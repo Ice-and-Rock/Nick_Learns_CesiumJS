@@ -6,27 +6,26 @@ Testing for Github Repo
 
 ### Issues form CesiumJS.com
 The following code block from the 'flight planner' doesn't work ❌
-<code>
+~~~
 // Keep your `Cesium.Ion.defaultAccessToken = 'your_token_here'` line from before here. 
 const viewer = new Cesium.Viewer('cesiumContainer', {
   terrain: Cesium.Terrain.fromWorldTerrain(),
 });
-
 const osmBuildings = await Cesium.createOsmBuildingsAsync();
 viewer.scene.primitives.add(osmBuildings);
-</code>
+~~~
 
 ## Instead, use this... ✅
 These code snippets are a breakdown of the file extensions *cesium world terrain* , *cesium OSM buildings* and *bing maps arial imagery* 
 
-Cesium World Terrain
+**Cesium World Terrain**
     ~ With water Mask extension
 - fuses data sources into single quantized-mesh terrain tilesets for 3D visuals
 
-Cesium OSM Buildings
+**Cesium OSM Buildings**
 - 3D building rendering derived from OpenStreetMap
 
-Bing Maps Arial
+**Bing Maps Arial**
     ~ With 'labels' extension
 - world imagery for urban areas with down to 15cm resolution 
 
