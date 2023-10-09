@@ -4,6 +4,8 @@ A repo to build a flight tracker and to learn how Cesium libraries use their dat
 
 Lets fly from US to Europe.
 
+**Feel free to clone the repo and open the code in the local server.**
+
 
 
 ### Issues form CesiumJS.com
