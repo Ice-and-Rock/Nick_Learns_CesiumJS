@@ -19,16 +19,16 @@ viewer.scene.primitives.add(osmBuildings);
 ## Instead, use this... ✅
 These code snippets are a breakdown of the file extensions *cesium world terrain* , *cesium OSM buildings* and *bing maps arial imagery* 
 
-    Cesium World Terrain
-        ~ With water Mask extension
-    - fuses data sources into single quantized-mesh terrain tilesets for 3D visuals
+Cesium World Terrain
+    ~ With water Mask extension
+- fuses data sources into single quantized-mesh terrain tilesets for 3D visuals
 
-    Cesium OSM Buildings
-    - 3D building rendering derived from OpenStreetMap
+Cesium OSM Buildings
+- 3D building rendering derived from OpenStreetMap
 
-    Bing Maps Arial
-        ~ With 'labels' extension
-    - world imagery for urban areas with down to 15cm resolution 
+Bing Maps Arial
+    ~ With 'labels' extension
+- world imagery for urban areas with down to 15cm resolution 
 
 
    Cesium.Ion.defaultAccessToken =
