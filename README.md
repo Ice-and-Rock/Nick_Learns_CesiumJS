@@ -1,7 +1,9 @@
 ### Nick_Learns_CesiumJS
-A sandbox to play with the CesiumJS Libraries
 
-Testing for Github Repo
+A repo to build a flight tracker and to learn how Cesium libraries use their data to render 3D models... 🚀
+
+Lets fly from US to Europe.
+
 
 
 ### Issues form CesiumJS.com
