@@ -46,7 +46,7 @@ Cesium.Ion.defaultAccessToken =
     viewer.scene.primitives.add(Cesium.createOsmBuildings());
 ~~~
 
-## Cartesian3.fromDegrees to convert Lat / Long / Height to X, Y & Z
+## Use Cartesian3.fromDegrees to convert Lat / Long / Height =>  X, Y & Z
 
 ~~~
 // These are all the radar points from this flight.
