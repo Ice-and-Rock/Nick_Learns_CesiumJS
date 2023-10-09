@@ -49,8 +49,7 @@ Cesium.Ion.defaultAccessToken =
 
 ## Cartesian3.fromDegrees to convert Lat / Long / Height to X, Y & Z
 
-<code>
-// STEP 3 CODE (all points)
+~~~
 // These are all the radar points from this flight.
 const flightData = JSON.parse(
     <!-- LAT, LONG & HEIGHT: API DATA-->
@@ -65,4 +64,4 @@ for (let i = 0; i < flightData.length; i++) {
     point: { pixelSize: 10, color: Cesium.Color.RED }
   });
 }
-</code>
+~~~
