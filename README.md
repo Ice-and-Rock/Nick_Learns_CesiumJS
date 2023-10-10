@@ -70,3 +70,15 @@ for (let i = 0; i < flightData.length; i++) {
   });
 }
 ~~~
+
+
+### TO DO ...👆
+# Create a main.js
+# put the data into a seperate file
+    - .js file will do for now
+    - .JSON later, then we will have to use .parse()
+# import the data into the main.js 
+    - no need to parse because it's already a JS object!
+# render the rest of the Cesium library in main.js
+    - plus the rest of the code and data interpretation 
+# attach main.js at the SRC in the script tags for HTML page
