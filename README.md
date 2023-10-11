@@ -8,6 +8,8 @@ Lets fly from US to Europe.
 
 **Feel free to clone the repo and open the code in the local server.**
 
+The data allows you to follow a flight from San Francisco to Copenhagen ✈️
+
 ---
 
 ### Issues form CesiumJS.com
@@ -82,3 +84,5 @@ for (let i = 0; i < flightData.length; i++) {
 # render the rest of the Cesium library in main.js
     - plus the rest of the code and data interpretation 
 # attach main.js at the SRC in the script tags for HTML page
+
+
